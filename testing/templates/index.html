@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon image/png">
+  <title>rDis - Advanced Healthcare Data Prediction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <img src="logo-white.svg" alt="rDis, Healthcare Prediction">
+    <ul class="menu">
+      <li><a href="/" style="text-decoration: none;">Home</a></li>
+      <li><a href="/predictiveModelling" style="text-decoration: none;">Predictive Models</a></li>
+      <li><a href="#" style="text-decoration: none;">Data Collection</a></li>
+      <li><a href="#" style="text-decoration: none;">Resources</a></li>
+      <li><a href="#" style="text-decoration: none;">Plans</a></li>
+    </ul>
+
+    <button class="hamburger-button">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </button>
+
+    <button class="primary-button navbar-button">Log In</button>
+  </nav>
+
+  <main>
+    <!-- GRADIENT BACKGROUND -->
+    <canvas id="gradient-canvas"></canvas>
+
+    <div class="hero">
+      <div class="section-container two-column">
+        <div class="col-left">
+          <h1>Revolutionizing Healthcare Data Prediction</h1>
+          <p>
+            rDis leverages cutting-edge predictive models to assist in healthcare data management, improving decision-making,
+            resource allocation, and patient outcomes.
+          </p>
+          <div class="button-container">
+            <button class="primary-button with-icon">
+              Get Started
+              <img src="arrow-right-light.svg" alt="">
+            </button>
+            <button class="secondary-button with-icon">
+              Contact Our Team
+              <img src="arrow-right-purple.svg" alt="">
+            </button>
+          </div>
+        </div>
+        <div class="col-right hero-phone-container">
+          <img class="hero-phone" src="hero-phone.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- PARTNERS GRID SECTION -->
+    <div class="partners-section">
+      <div class="partners-container">
+        <div class="partners-grid">
+          <img src="instacart.png" alt="Instacart">
+          <img src="salesforce.png" alt="Salesforce">
+          <img src="amazon.png" alt="Amazon">
+          <img src="slack.png" alt="Slack">
+          <img src="shopify.png" alt="Shopify">
+          <img src="google.png" alt="Google">
+          <img src="lyft.png" alt="Lyft">
+          <img src="zoom.png" alt="Zoom">
+        </div>
+      </div>
+    </div>
+
+    <!-- UNIFIED PLATFORM -->
+    <div class="unified-platform-section">
+      <div class="section-container">
+        <p class="subtitle">Unified Platform</p>
+        <h2>All the tools you'll ever need for healthcare data</h2>
+        <div class="two-column">
+          <div class="col-left">
+            <p>
+              rDis provides all the necessary tools to help healthcare providers integrate data, optimize healthcare
+              strategies, and predict trends for more informed decision-making.
+            </p>
+          </div>
+          <div class="col-right">
+            <p>
+              Our platform offers intuitive tools for visualizing prediction results, monitoring trends, and optimizing
+              healthcare strategies with enhanced precision.
+            </p>
+          </div>
+        </div>
+        <button class="primary-button with-icon">
+          Get Started
+          <img src="arrow-right-light.svg" alt="">
+        </button>
+      </div>
+    </div>
+
+    <!-- INTEGRATIONS SECTION -->
+    <div class="integrations-section">
+      <div class="section-container two-column">
+        <div class="col-left">
+          <p class="subtitle2">Built for Healthcare</p>
+          <h2>Seamless Integration with Healthcare Data</h2>
+          <p>
+            rDis integrates effortlessly with a variety of healthcare databases and APIs, simplifying data collection and
+            prediction tasks.
+          </p>
+          <button class="primary-button with-icon">
+            Discover More
+            <img src="arrow-right-dark.svg" alt="">
+          </button>
+
+          <div class="card-container">
+            <div class="card">
+              <img src="tools-icon.png" alt="" class="icon">
+              <h3>Healthcare Data Connections</h3>
+              <p class="secondary-text">Seamlessly connect with hospital systems and public health data repositories.</p>
+              <button class="secondary-button with-icon">
+                See Libraries
+                <img src="arrow-right-blue.svg" alt="">
+              </button>
+            </div>
+
+            <div class="card">
+              <img src="cube-icon.png" alt="" class="icon">
+              <h3>Advanced Predictive Models</h3>
+              <p class="secondary-text">Utilize our machine learning models to predict trends and spot disease hotspots.</p>
+              <button class="secondary-button with-icon">
+                Explore Models
+                <img src="arrow-right-blue.svg" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-right">
+          <img src="api-code.png" alt="" id="api-code">
+          <img src="terminal-code.png" alt="" id="terminal-code">
+        </div>
+      </div>
+    </div>
+
+    <!-- WHY rDIS SECTION -->
+    <div class="why-swipe-section">
+      <div class="section-container">
+        <p class="subtitle">Why rDis</p>
+        <h2>A data-driven approach to healthcare</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="cloud-icon.png" alt="" class="icon">
+            <h3>Efficient Data Use</h3>
+            <p class="secondary-text">We optimize every part of the healthcare data workflow, from integration to predictive analysis.</p>
+          </div>
+          <div class="card">
+            <img src="cycle-icon.png" alt="" class="icon">
+            <h3>Constant Improvement</h3>
+            <p class="secondary-text">We continuously update our models to stay ahead of trends and improve prediction accuracy.</p>
+          </div>
+          <div class="card">
+            <img src="shield-icon.png" alt="" class="icon">
+            <h3>Reliable and Secure</h3>
+            <p class="secondary-text">Our systems offer 100% uptime and guarantee scalability and security for your healthcare data.</p>
+          </div>
+          <div class="card">
+            <img src="bars-icon.png" alt="" class="icon">
+            <h3>Data-Driven Insights</h3>
+            <p class="secondary-text">Our models leverage billions of data points to optimize healthcare predictions and outcomes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GLOBAL SECTION -->
+    <div class="global-section">
+      <div class="section-container">
+        <div class="two-column">
+          <div class="col-left">
+            <p class="subtitle2">Global Reach</p>
+            <h2>A structure for global healthcare solutions</h2>
+            <p>rDis simplifies healthcare data analysis globally, with clients ranging from startups to multinational corporations.</p>
+          </div>
+          <div class="col-right">
+            <img src="global-graphic.png" alt="" id="globe">
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <h3>250M+</h3>
+            <p class="secondary-text">API requests processed daily.</p>
+          </div>
+          <div class="card">
+            <h3>97%</h3>
+            <p class="secondary-text">Of US adults have used healthcare services powered by rDis.</p>
+          </div>
+          <div class="card">
+            <h3>135+</h3>
+            <p class="secondary-text">Countries served with localized healthcare solutions.</p>
+          </div>
+          <div class="card">
+            <h3>35+</h3>
+            <p class="secondary-text">Countries with optimized healthcare data acceptance rates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- VIRTUAL EVENTS SECTION -->
+
+<div class="virtual-events-section">
+  <div class="section-container two-column">
+      <div class="col-left">
+          <p class="subtitle">Virtual events</p>
+          <h2>Check out the latest sessions!</h2>
+          <p>Our annual rDis conference is now available to watch on demand! Join us to explore the future of data collection in healthcare, and discover how our platform can enhance data accuracy and improve workflows for healthcare professionals worldwide.</p>
+          <button class="primary-button with-icon">
+              Start now
+              <img src="arrow-right-light.svg" alt="">
+          </button>
+      </div>
+      <div class="col-right">
+          <div class="swipe-sessions-card">
+              <div class="card-top">
+                  <img src="rdis-sessions.png" alt="" id="sessions-logo">
+                  <div class="avatars">
+                      <img src="avatar1.png" alt="">
+                      <img src="avatar2.png" alt="">
+                  </div>
+              </div>
+              <div class="card-bottom">
+                  <div class="card-content">
+                      <p class="subtitle">Keynote</p>
+                      <p class="secondary-text">An in-depth look into data collection and analysis in healthcare</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- GETTING STARTED SECTION -->
+
+<div class="getting-started-section">
+  <div class="section-container two-column">
+      <div class="col-left">
+          <h2>What are you waiting for?</h2>
+          <p>Explore <a href="#">rDis</a> today, or sign up to start revolutionizing healthcare data management! If you need a custom solution tailored to your healthcare needs, let's connect.</p>
+          <button class="primary-button with-icon">
+              Start now
+              <img src="arrow-right-light.svg" alt="">
+          </button>
+      </div>
+      <div class="col-right">
+          <div class="card">
+              <img src="shield-icon.png" alt="" class="icon">
+              <h3>Transparent Pricing</h3>
+              <p class="secondary-text">Clear and upfront pricing with no hidden fees</p>
+              <button class="secondary-button with-icon">
+                  Pricing details
+                  <img src="arrow-right-purple.svg" alt="">
+              </button>
+          </div>
+          <div class="card">
+              <img src="bars-icon.png" alt="" class="icon">
+              <h3>Integrate in minutes</h3>
+              <p class="secondary-text">Get started with rDis in just a few simple steps to start streamlining your healthcare data.</p>
+              <button class="secondary-button with-icon">
+                  API reference
+                  <img src="arrow-right-purple.svg" alt="">
+              </button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="section-container">
+      <div class="col">
+          <img src="logo-dark.svg" alt="" id="footer-logo">
+          <div class="icon-link">
+              <img src="location-icon.png" alt="">
+              <a href="#">United States</a>
+          </div>
+          <div class="icon-link">
+              <img src="comment-icon.png" alt="">
+              <a href="#">English (United States)</a>
+          </div>
+      </div>
+      <div class="col">
+          <h3>Products</h3>
+          <ul>
+              <li><a href="#">rDis Platform</a></li>
+              <li><a href="#">Healthcare Data Tools</a></li>
+              <li><a href="#">Data Collection</a></li>
+              <li><a href="#">Analytics</a></li>
+              <li><a href="#">Machine Learning Solutions</a></li>
+              <li><a href="#">Reports</a></li>
+          </ul>
+      </div>
+      <div class="col">
+          <h3>Use Cases</h3>
+          <ul>
+              <li><a href="#">Healthcare Professionals</a></li>
+              <li><a href="#">Research Institutions</a></li>
+              <li><a href="#">Public Health Initiatives</a></li>
+              <li><a href="#">Data Collection in Remote Areas</a></li>
+              <li><a href="#">Medical Data Integration</a></li>
+              <li><a href="#">Analytics for Health Insights</a></li>
+          </ul>
+      </div>
+      <div class="col">
+          <h3>Resources</h3>
+          <ul>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">User Guides</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Licenses</a></li>
+              <li><a href="#">Privacy & Terms</a></li>
+              <li><a href="#">Cookie Settings</a></li>
+          </ul>
+      </div>
+  </div>
+</footer>
+
+  <script src="gradient.js"></script>
+</body>
+
+</html>
